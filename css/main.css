@@ -1,0 +1,138 @@
+/* This is Universal selector */
+* {
+  margin: 0;
+}
+
+
+/* Selectors by type of element*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgba(5, 31, 49, 0.979);
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font-size: 56px;
+}
+
+/* Selectors by ID */
+
+#para1 {
+  text-align: center;
+  color: rgb(6, 107, 99);
+  font-size: 32;
+}
+
+#box {
+  margin-right: 100px;
+  width: 410px;
+  height: 260px;
+  border: 2px solid rgb(245, 220, 225);
+  padding: 4px 6px;
+  font: 16px "Lucida Grande", "Helvetica", "Arial", "sans-serif"
+}
+
+
+/* Selectors by name of element */
+
+
+.gradient-box {
+  background-color: #35342b;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 100%;
+
+}
+
+.button {
+  border: none;
+  color: rgb(59, 36, 36); 
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 2px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.button1 {
+  background-color: rgba(255, 255, 255, 0.034); 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: rgba(255, 255, 255, 0); 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: rgba(247, 238, 238, 0); 
+  color: black; 
+  border: 2px solid #eb0000;
+}
+
+.button3:hover {
+  background-color: #ba0000;
+  color: white;
+}
+
+.button4 {
+  background-color: rgba(255, 255, 255, 0.027); 
+  color: black; 
+  border: 2px solid #eb00d8;
+}
+
+.button4:hover {
+  background-color: #ba00a1;
+  color: white;
+}
+
+.button5 {
+  background-color: rgba(255, 255, 255, 0.027); 
+  color: black; 
+  border: 2px solid #ebdb00;
+}
+
+.button5:hover {
+  background-color: #fcf816;
+  color: white;
+}
+
+body.-darkmode {
+--article-link-title-color: #8CB9FF;
+}
