@@ -1,10 +1,14 @@
 /* This is Universal selector */
+
+
 * {
   margin: 0;
 }
 
 
 /* Selectors by type of element*/
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -133,6 +137,3 @@ p {
   color: white;
 }
 
-body.-darkmode {
---article-link-title-color: #8CB9FF;
-}
